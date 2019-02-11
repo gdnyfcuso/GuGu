@@ -1,22 +1,27 @@
 GuGu(股估)
 
 GuGu是适用于量化工程及金融/投资领域数据分析的开源项目，通过对互联网上的公开数据进行采集、清洗和存储，完成了对股票/债券/基金等金融数据的统一调用和分析。其优点是速度快、可定制及高度的可复用性。您不仅可以将其作为单独的数据接口使用，还可以将其集成在您的项目中作为数据获取api进行调用。
-大家可能之前用过或听说过Tushare，本人之前在进行金融数据分析时也是使用Tushare获取数据的，在此对Tushare表示由衷地感谢！现在Tushare需要注册并积累积分才能获得更多的权限，这对于喜欢自己动手并自由定制的朋友会有很多的不便，因此受Tushare的启发，开发了GuGu，作为Tushare的开源社区版，我们承诺GuGu将永远开源并不做任何限制以提供给广大金融数据分析及量化爱好者免费使用！
 
-欢迎访问官网：http://www.infodata.cc 获取更多的资讯、参加更广泛的交流！
+大家可能之前用过或听说过Tushare，本人之前在进行金融数据分析时也是使用Tushare获取数据的，在此对Tushare表示由衷地感谢！现在Tushare需要注册并积累积分才能获得更多的权限，这对于喜欢自己动手并自由定制的朋友会有很多的不便，因此受Tushare的启发，开发了GuGu，作为Tushare的开源社区版，我们承诺GuGu将永远开源并不做任何限制以提供给广大金融数据分析及量化爱好者免费使用！
 
 QQ交流群：591597089
 
 Dependencies:
+
     python 2.x/3.x
+    
     pandas
 
 Installation
+
     方式1： pip install GuGu
+    
     方式2： python setup.py install
+    
     方式3：访问 https://pypi.python.org/pypi/GuGu/ 下载安装
 
 Upgrade
+
     pip install GuGu --upgrade
 
 Quick Start
@@ -309,7 +314,8 @@ Quick Start
     77  501035  \t创金睿选  0.938         0.32    2.14    877.0    0.9627  2019-02-01   
 
 更多文档：
-    http://www.infodatacc/gugu
+
+    请查阅文档
 
 Change Log:
     0.1.0 2019/02/03
